@@ -1,0 +1,88 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 4,
+  "numPassedTests": 0,
+  "numFailedTests": 4,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1730558004520,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Başarılı login girişinde localStoragea email adresini kaydediyor.",
+          "status": "failed",
+          "title": "Başarılı login girişinde localStoragea email adresini kaydediyor.",
+          "duration": 623,
+          "failureMessages": [
+            "expected false to be true // Object.is equality"
+          ],
+          "location": {
+            "line": 50,
+            "column": 5
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " localStorageda kayıtlı email adresini email inputuna ekleyerek form açılıyor.",
+          "status": "failed",
+          "title": "localStorageda kayıtlı email adresini email inputuna ekleyerek form açılıyor.",
+          "duration": 667,
+          "failureMessages": [
+            "\u001b[2mexpect(\u001b[22m\u001b[31melement\u001b[39m\u001b[2m).toHaveValue(\u001b[22m\u001b[32merdem.guntay@wit.com.tr\u001b[39m\u001b[2m)\u001b[22m\n\nExpected the element to have value:\n\u001b[32m  erdem.guntay@wit.com.tr\u001b[39m\nReceived:\n\u001b[31m\u001b[39m"
+          ],
+          "location": {
+            "line": 71,
+            "column": 17
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " localStorageda kayıtlı email adresi yoksa focus email inputunda açılıyor",
+          "status": "failed",
+          "title": "localStorageda kayıtlı email adresi yoksa focus email inputunda açılıyor",
+          "duration": 686,
+          "failureMessages": [
+            "\u001b[2mexpect(\u001b[22m\u001b[31melement\u001b[39m\u001b[2m).toHaveFocus()\u001b[22m\n\nExpected element with focus:\n  \u001b[32m<input\n  class=\"form-control\"\n  data-testid=\"email-input\"\n  id=\"exampleEmail\"\n  name=\"email\"\n  placeholder=\"Enter your email\"\n  type=\"email\"\n  value=\"\"\n/>\u001b[39m\nReceived element with focus:\n  \u001b[31m<button\n  class=\"btn btn-primary\"\n  type=\"button\"\n>\n  Login\n</button>\u001b[39m"
+          ],
+          "location": {
+            "line": 91,
+            "column": 17
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " localStorageda kayıtlı email adresi varsa focus password inputunda açılıyor",
+          "status": "failed",
+          "title": "localStorageda kayıtlı email adresi varsa focus password inputunda açılıyor",
+          "duration": 674,
+          "failureMessages": [
+            "\u001b[2mexpect(\u001b[22m\u001b[31melement\u001b[39m\u001b[2m).toHaveFocus()\u001b[22m\n\nExpected element with focus:\n  \u001b[32m<input\n  class=\"form-control\"\n  data-testid=\"password-input\"\n  id=\"examplePassword\"\n  name=\"password\"\n  placeholder=\"Enter your password \"\n  type=\"password\"\n  value=\"\"\n/>\u001b[39m\nReceived element with focus:\n  \u001b[31m<button\n  class=\"btn btn-primary\"\n  type=\"button\"\n>\n  Login\n</button>\u001b[39m"
+          ],
+          "location": {
+            "line": 111,
+            "column": 17
+          }
+        }
+      ],
+      "startTime": 1730579326272,
+      "endTime": 1730579328922,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-zziwh3/src/__tests__/index.test.jsx"
+    }
+  ]
+}
